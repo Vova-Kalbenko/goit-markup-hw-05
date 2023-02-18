@@ -1,0 +1,349 @@
+:root {
+    --subtitle-fonts: #2E2F42;
+    --description-fonts: #434455;
+    --background-accent-color: #404BBF;
+    --card-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    --portfolio-buttons-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ======================== COMPONENTS ======================== */
+.modal-btn {
+    padding: 16px 32px 16px 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 466px;
+    margin-left: 466px;
+    border-radius: 4px;
+}
+
+.modal-btn:hover {
+    background-color: var(--background-accent-color)
+}
+
+.modal-btn:focus {
+    background-color: var(--background-accent-color)
+}
+
+.subtitle {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--subtitle-fonts)
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--description-fonts)
+}
+
+
+.text-align {
+    text-align: center;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.services-card {
+    flex-basis: calc((100% - 48) / 3);
+}
+.box-shadow {
+    box-shadow: var(--card-shadow);
+}
+
+
+/* ======================== /COMPONENTS ======================== */
+/* ======================== HEADER ======================== */
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    margin-right: 76px;
+}
+
+.logo-black {
+    color: #2E2F42;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.menu-link:hover {
+    color: #404BBF;
+}
+
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.menu-link.current {
+    color: var(--background-accent-color);
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.contact-info {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.contact-info:hover {
+    color: #404BBF;
+}
+
+.contact-info:focus {
+    color: #404BBF;
+}
+
+.adress-fonts {
+    font-style: normal;
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-nav {
+    display: flex;
+}
+
+.services-item:not(:last-child) {
+    margin-right: 24px;
+}
+/* ======================== HERO ======================== */
+
+.headline {
+    font-size: 56px;
+    line-height: 1.08;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 48px;
+}
+
+.hero {
+    background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+/* ======================== ADVANTAGES ======================== */
+.section-advantages {
+    padding-top: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ======================== WHAT ARE WE DOING ======================== */
+
+.title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+
+
+/* ======================== OUR TEAM ======================== */
+
+.employees-section {
+    background-color: #F4F4FD;
+}
+
+.employees-card {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card-content-wrapper {
+    padding-top: 32px;
+    border: 1px solid #F4F4FD;
+    border-top: none;
+    padding-left: 16px;
+    padding-bottom: 21px;
+
+}
+.card-background-color {
+    background-color: #FFFFFF;
+}
+
+/* ======================== FOOTER ======================== */
+
+.footer-list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+    margin-right: 850px;
+}
+
+.logo-white {
+    color: #F4F4FD;
+}
+
+.footer-background {
+    background-color: #2E2F42;
+    padding: 100px 0 100px 0;
+}
+.logo-margin {
+    margin-bottom: 16px;
+}
+
+/* ======================== PORTFOLIO ======================== */
+.portfolio-background {
+    background-color: #E5E5E5;
+}
+
+.app-buttons {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    border: none;
+    padding: 12px 24px 12px 24px;
+    box-shadow: var(--portfolio-buttons-shadow);
+    border-radius: 4px;
+}
+
+.app-buttons:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.app-buttons:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    border:0;
+    padding:0;
+    clip:rect(0 0 0 0);
+    clip-path:inset(50%);
+    margin: -1px;
+    }
+
+.portfilio-section {
+    padding-top: 72px;
+    padding-bottom: 96px;
+}
+
+.portfolio-display-flex {
+    row-gap: 48px;
+}
+
+.portfolio-padding { 
+    padding-top: 72px;
+}
