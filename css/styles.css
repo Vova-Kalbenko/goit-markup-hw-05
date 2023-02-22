@@ -67,7 +67,7 @@ body {
     margin-right: 466px;
     margin-left: 466px;
     border-radius: 4px;
-    transition: var(--transition-dur-and-func);
+    transition: background-color var(--transition-dur-and-func);
 }
 
 .modal-btn:hover {
@@ -173,7 +173,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    transition: var(--transition-dur-and-func);
+    transition: color var(--transition-dur-and-func);
 }
 
 .menu-link:hover {
@@ -200,7 +200,7 @@ body {
     color: #434455;
     margin-left: auto;
     margin-right: 40px;
-    transition: var(--transition-dur-and-func);
+    transition: color var(--transition-dur-and-func);
 }
 
 .contact-info:hover {
@@ -339,7 +339,7 @@ body {
     border-radius: 50%;
     background-color: #4D5AE5;
     fill: #F4F4FD;
-    transition: var(--transition-dur-and-func);
+    transition: background-color var(--transition-dur-and-func);
 }
 
 .social-list-link:hover {
@@ -373,7 +373,7 @@ body {
     align-items: center;
     width: 168px;
     height: 88px;
-    transition: var(--transition-dur-and-func);
+    transition: fill var(--transition-dur-and-func);
 }
 
 .customers-list-link:hover {
@@ -437,7 +437,7 @@ body {
     border-radius: 50%;
     fill: #F4F4FD;
     background-color: rgba(255, 255, 255, 0.1);
-    transition: var(--transition-dur-and-func);
+    transition: background-color var(--transition-dur-and-func);
 }
 
 .footer-social-list-link:hover {
@@ -480,7 +480,7 @@ body {
     padding: 12px 24px 12px 24px;
     box-shadow: var(--portfolio-buttons-shadow);
     border-radius: 4px;
-    transition: var(--transition-dur-and-func);
+    transition: background-color var(--transition-dur-and-func);
 }
 
 .app-buttons:hover {
